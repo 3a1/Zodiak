@@ -12,12 +12,16 @@ https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/8fba1847-14db-420
 
 
 
-https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/e1d50709-d92f-40e1-8b38-c3cac7b9bef7
+
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/7eccfa36-6398-441f-b141-298132b34a26
 
 
 
 
-https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/1d15745a-1ec2-4339-897c-37dbc5b7c9b4
+
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/ec7035b1-e6e2-4447-a3e7-38d0de194e84
+
+
 
 
 
