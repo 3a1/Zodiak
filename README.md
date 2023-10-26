@@ -10,7 +10,11 @@ As i know GameGuard checking in real time full drivers list in system, and ph dr
 
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/8fba1847-14db-420d-ae2b-43675722f497
 
-https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/8d108add-8320-42c2-938f-ce0a36fe6bce
+
+
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/e1d50709-d92f-40e1-8b38-c3cac7b9bef7
+
+
 
 
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/1d15745a-1ec2-4339-897c-37dbc5b7c9b4
