@@ -1,6 +1,8 @@
 # CS-1.6-Kernel-Cheat
 For now, only triggerbot // UPD: TriggerBot removed, but added a better aimbot 
+
 Bypass all kind of server anticheats. // UPD: For last release i dont testing its detect or not on various AC, all time in development so idk
+
 Not tested for GameGuard (Fastcup AC).
 
 As driver i use leaked ProcessHacker driver exploitable for read and write memory.
