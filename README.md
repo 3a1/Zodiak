@@ -16,7 +16,8 @@ https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/8fba1847-14db-420
 
 
 
-Showing up my first weird 
+Showing up my first weird distance based aimbot:
+
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/7eccfa36-6398-441f-b141-298132b34a26
 
 
