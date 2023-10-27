@@ -28,6 +28,10 @@ Fixed distance based aimbot:
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/ec7035b1-e6e2-4447-a3e7-38d0de194e84
 
 
+New crosshair based aimbot:
 
+
+
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/4e40ad84-e7f6-4b56-83a1-173d73269c2a
 
 
