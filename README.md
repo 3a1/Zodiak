@@ -12,6 +12,7 @@ As i know GameGuard checking in real time full drivers list in system, and ph dr
 
 
 First Version(Triggerbot):
+
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/8fba1847-14db-420d-ae2b-43675722f497
 
 
@@ -23,7 +24,7 @@ https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/7eccfa36-6398-441
 
 
 Fixed distance based aimbot:
-implementation of distance based aimbot:
+
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/ec7035b1-e6e2-4447-a3e7-38d0de194e84
 
 
