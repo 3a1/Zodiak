@@ -11,23 +11,23 @@ As driver i use leaked ProcessHacker driver exploitable for read and write memor
 As i know GameGuard checking in real time full drivers list in system, and ph driver is now mostly blacklisted in all AC, so i think play with this on GG AC will cause immediately ban.
 
 
-Markup : <details>
+<details>
            <summary>First Version(TriggerBot)</summary>
            <p>https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/8fba1847-14db-420d-ae2b-43675722f497</p>
-         </details>
+</details>
 
-Markup : <details>
+<details>
            <summary>Showing up my first weird distance based aimbot</summary>
            <p>https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/7eccfa36-6398-441f-b141-298132b34a26</p>
-         </details>
+</details>
 
-Markup : <details>
+<details>
            <summary>Fixed distance based aimbot</summary>
            <p>https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/ec7035b1-e6e2-4447-a3e7-38d0de194e84</p>
-         </details>
+</details>
 
-Markup : <details>
+<details>
            <summary>New crosshair based aimbot</summary>
            <p>https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/4e40ad84-e7f6-4b56-83a1-173d73269c2a</p>
-         </details>
+</details>
 
