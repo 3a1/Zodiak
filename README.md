@@ -1,7 +1,9 @@
 # CS-1.6-Kernel-Cheat
 For now, only triggerbot // UPD: TriggerBot removed, but added a better aimbot 
 
-Bypass all kind of server anticheats. // UPD: For last release i dont testing its detect or not on various AC, all time in development so idk
+Bypass all kind of server anticheats. // UPD: For last release i dont make try detect or not on various AC, all time in development so idk
+
+// workflow: Now im working on pov and smooth aimbot, then i was try to change from writing viewAngles to emulate mouse movement, bc by writing angles i dont know why but sometimes game is just crashing. Then i was make try to develop my own driver and include all code aimbot in the driver. I think it can maybe bypass gameguard? Also entityList is trash in cs 1.6, in other games entity list have static space between entitys, but not in cs 1.6. One entity can have dormant value, but other entity can dont have this value or in other location (example entity1 + 0x18C = dormant value, entity2 + 0x18C = different 0 value)
 
 Not tested for GameGuard (Fastcup AC).
 
