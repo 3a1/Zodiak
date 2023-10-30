@@ -1,16 +1,24 @@
-# CS-1.6-Kernel-Cheat
-For now, only triggerbot
+# 🛰About
+A fully supported and frequently updated ring0 kernel driver cheat written from zero.
+
+Fully under development.
 
 Bypass all kind of server anticheats.
+
 # 🌌Usage
 To turn on the aimbot, hold alt. Run always as administrator.
++ Download latest release
++ Disable driver signature enforcement
+  + Open cmd as Administrator
+  + Type <code>bcdedit /set nointegritychecks on</code>
+  + Reboot
++ Start driver
++ Open CS 1.6
++ Start usermode
++ Enjoy
 
-// workflow: Now im working on pov and smooth aimbot, then i was try to change from writing viewAngles to emulate mouse movement, bc by writing angles i dont know why but sometimes game is just crashing. Then i was make try to develop my own driver and include all code aimbot in the driver. I think it can maybe bypass gameguard? Also entityList is trash in cs 1.6, in other games entity list have static space between entitys, but not in cs 1.6. One entity can have dormant value, but other entity can dont have this value or in other location (example entity1 + 0x18C = dormant value, entity2 + 0x18C = different 0 value)
-
-Not tested for GameGuard (Fastcup AC).
-
-As driver i use leaked ProcessHacker driver exploitable for read and write memory.
-As i know GameGuard checking in real time full drivers list in system, and ph driver is now mostly blacklisted in all AC, so i think play with this on GG AC will cause immediately ban.
+# 🗿Disclaimer
+I am not responsible for anything that happens when you use this software.
 
 <details>
            <summary>Old README.md</summary>
