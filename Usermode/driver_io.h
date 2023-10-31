@@ -2,7 +2,7 @@
 
 #define DRIVER_NAME		"\\\\.\\top_ring0"
 #define GAME_NAME		"hl.exe"
-#define CLIENT_DLL		"\\csgo\\bin\\client.dll"
+#define CLIENT_DLL		"\\cstrike\\bin\\client.dll"
 
 #define IO_INIT_CHEAT_DATA				CTL_CODE(FILE_DEVICE_UNKNOWN, 0x2001, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
 #define IO_GET_MODULES					CTL_CODE(FILE_DEVICE_UNKNOWN, 0x2002, METHOD_BUFFERED, FILE_SPECIAL_ACCESS)
