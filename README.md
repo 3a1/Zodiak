@@ -10,7 +10,7 @@ To turn on the aimbot, hold alt. Run always as administrator.
 + Download latest release
 + Disable driver signature enforcement
   + Open cmd as Administrator
-  + Type <code>bcdedit /set nointegritychecks on</code>
+  + Type <code>bcdedit /set testsigning on</code>
   + Reboot
 + Start driver
 + Open CS 1.6
