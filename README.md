@@ -20,7 +20,7 @@ Bypass all kind of server anticheats.
 <details>
 <summary>IMG</summary>
 <p>
-![image](https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/a9d1c934-02dc-48a7-9fe2-d579878dcc43)
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/a9d1c934-02dc-48a7-9fe2-d579878dcc43
 </p>
 </details>
 
