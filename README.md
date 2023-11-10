@@ -1,7 +1,7 @@
 # 🛰About
 Ring0 kernel driver cheat for cs 1.6.
 
-![IMG_0510](https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/328acee4-72b4-4251-8a9b-a96691b0618e)
+![IMG_0510](https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/328acee4-72b4-4251-8a9b-a96691b0618e | width=100)
 
 
 Only for developers.
