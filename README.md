@@ -16,9 +16,11 @@ Bypass all kind of server anticheats.
 + Start usermode
 + Enjoy
 
-<details>
-           <summary>First Version(TriggerBot)</summary>
-           <p>
+
+
+
+
+
 + Using cmd
   + Open cmd as Administrator
   + Type <code>bcdedit /set      testsigning on</code>
@@ -27,8 +29,7 @@ Bypass all kind of server anticheats.
   + Download kdmapper from github
   + Compile it
   + Open cmd and type <code>kdmapper.exe your_driver.exe</code>
-          </p>
-</details>
+
 # 🌸Video
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/235d4d8a-2abe-4ea2-b2da-8521adf8cbba
 
