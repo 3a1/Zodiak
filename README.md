@@ -1,12 +1,11 @@
 # 🛰About
-A fully supported and frequently updated ring0 kernel driver cheat written from zero.
+Ring0 kernel driver cheat for cs 1.6.
 
-Fully under development.
+Only for developers.
 
 Bypass all kind of server anticheats.
 
 # 🌌Usage
-To turn on the aimbot, hold alt. Run always as administrator.
 + Download latest release
 + Disable driver signature enforcement
   + Open cmd as Administrator
@@ -17,14 +16,16 @@ To turn on the aimbot, hold alt. Run always as administrator.
 + Start usermode
 + Enjoy
 
-# 🗿Disclaimer
-I am not responsible for anything that happens when you use this software.
+# 🌸Video
 <details>
 <summary>IMG</summary>
 <p>
+![image](https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/a9d1c934-02dc-48a7-9fe2-d579878dcc43)
+</p>
+</details>
 
   
-![image](https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/a9d1c934-02dc-48a7-9fe2-d579878dcc43)
+
 
 
 </p>
