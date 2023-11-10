@@ -18,8 +18,14 @@ Bypass all kind of server anticheats.
 
 # 🌸Video
 <details>
-<summary>IMG</summary>
+<summary>Video
+
+
+
+</summary>
 <p>
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/235d4d8a-2abe-4ea2-b2da-8521adf8cbba
+  
 https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/a9d1c934-02dc-48a7-9fe2-d579878dcc43
 </p>
 </details>
