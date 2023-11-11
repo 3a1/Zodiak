@@ -31,7 +31,7 @@ My Dev Progress:
 </details>
 
 <details>
-           <summary>Showing up my first weird distance based aimbot</summary>
+           <summary>Showing up my first broken distance based aimbot</summary>
            <p>https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/7eccfa36-6398-441f-b141-298132b34a26</p>
 </details>
 
