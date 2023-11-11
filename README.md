@@ -10,6 +10,14 @@ Bypass all kind of server anticheats.
 
 Bypass Wargods.
 
+<details>
+           <summary>Wargods Scans</summary>
+           <p><details>
+           <summary>Wargods Scans</summary>
+           <p></p>
+</details></p>
+</details>
+
 # 💫Features
 Bunnyhop, Angles Aimbot and Mouse Movement Emulation aimbot.
 
