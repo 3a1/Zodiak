@@ -35,6 +35,7 @@ Bunnyhop, Angles Aimbot and Mouse Movement Emulation aimbot.
 
 # 🌌Usage
 + Download latest release
++ Compile using Visual Studio
 + Manual map driver using kdmapper or manual turn off driver signature enforcement by cmd.
 + Start driver
 + Open CS 1.6
