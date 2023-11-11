@@ -1,0 +1,77 @@
+;
+; NoRecoilDriver.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System ; TODO: specify appropriate Class
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: specify appropriate ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=NoRecoilDriver.cat
+DriverVer= ; TODO: set DriverVer in stampinf property pages
+PnpLockdown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+NoRecoilDriver_Device_CoInstaller_CopyFiles = 11
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+NoRecoilDriver.sys  = 1,,
+WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll=1 ; make sure the number matches with SourceDisksNames
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NT$ARCH$
+
+[Standard.NT$ARCH$]
+%NoRecoilDriver.DeviceDesc%=NoRecoilDriver_Device, Root\NoRecoilDriver ; TODO: edit hw-id
+
+[NoRecoilDriver_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+NoRecoilDriver.sys
+
+;-------------- Service installation
+[NoRecoilDriver_Device.NT.Services]
+AddService = NoRecoilDriver,%SPSVCINST_ASSOCSERVICE%, NoRecoilDriver_Service_Inst
+
+; -------------- NoRecoilDriver driver install sections
+[NoRecoilDriver_Service_Inst]
+DisplayName    = %NoRecoilDriver.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\NoRecoilDriver.sys
+
+;
+;--- NoRecoilDriver_Device Coinstaller installation ------
+;
+
+[NoRecoilDriver_Device.NT.CoInstallers]
+AddReg=NoRecoilDriver_Device_CoInstaller_AddReg
+CopyFiles=NoRecoilDriver_Device_CoInstaller_CopyFiles
+
+[NoRecoilDriver_Device_CoInstaller_AddReg]
+HKR,,CoInstallers32,0x00010000, "WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll,WdfCoInstaller"
+
+[NoRecoilDriver_Device_CoInstaller_CopyFiles]
+WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll
+
+[NoRecoilDriver_Device.NT.Wdf]
+KmdfService =  NoRecoilDriver, NoRecoilDriver_wdfsect
+[NoRecoilDriver_wdfsect]
+KmdfLibraryVersion = $KMDFVERSION$
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+DiskName = "NoRecoilDriver Installation Disk"
+NoRecoilDriver.DeviceDesc = "NoRecoilDriver Device"
+NoRecoilDriver.SVCDESC = "NoRecoilDriver Service"
