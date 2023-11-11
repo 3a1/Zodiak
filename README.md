@@ -18,8 +18,20 @@ Bypass all kind of server anticheats.
 
 
 
-# 🌸Video
-https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/235d4d8a-2abe-4ea2-b2da-8521adf8cbba
+# 🌸Mouse Movement Aimbot Showcase:
+
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/3ba62859-ecfe-45b3-9a13-b67efc047a61
+
+
+
+# 🌸Angles Movement Aimbot Showcase:
+
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/54a18746-8a52-4ba6-b390-14c1222b34da
+
+# 🌸Bhop Showcase:
+
+https://github.com/Zebra64/CS-1.6-Kernel-Cheat/assets/75133897/d59236ba-70ea-40c0-b307-9663462ee34d
+
 
 
 My Dev Progress:
