@@ -31,8 +31,10 @@ Bypass Wargods.
 </details>
 
 # 💫Features
-Bunnyhop, Angles Aimbot and Mouse Movement Emulation aimbot.
-
++ Mouse Movement Emulation Aimbot
++ Angles Aimbot
++ Bunnyhop
+  
 # 🌌Usage
 + Download latest release or Compile using Visual Studio
 + Manual map driver using kdmapper or manual turn off driver signature enforcement by cmd.
