@@ -13,7 +13,14 @@ Bypass Wargods.
 <details>
            <summary>Wargods Scans</summary>
            <p><details>
-           <summary>Wargods Scans</summary>
+           <summary>Loaded Driver with Windows Test Mode[DETECTED]</summary>
+           <p></p>
+           </details>
+           <details>
+           <summary>Loaded Driver with kdmapper[usermode without vmprotect protection][UNDETECTED]</summary>
+           <p></p>
+           <details>
+           <summary>Loaded Driver with kdmapper[usermode protected with vmprotect][UNDETECTED]</summary>
            <p></p>
 </details></p>
 </details>
