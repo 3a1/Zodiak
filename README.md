@@ -20,11 +20,11 @@ Bypass Wargods.
            <summary>Loaded Driver with kdmapper[UNDETECTED]</summary>
            <p></p>
            <details>
-           <summary>Loaded Driver with kdmapper[usermode protected with vmprotect][UNDETECTED]</summary>
+           <summary>Usermode protected with vmprotect[UNDETECTED]</summary>
            <p></p>
            </details>
            <details>
-           <summary>Loaded Driver with kdmapper[usermode protected with vmprotect][UNDETECTED]</summary>
+           <summary>Usermode without vmprotect protection[UNDETECTED]</summary>
            <p></p>
            </details>
 </details></p>
