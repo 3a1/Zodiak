@@ -14,18 +14,18 @@ Bypass Wargods.
            <summary>Wargods Scans</summary>
            <p><details>
            <summary>Loaded Driver with Windows Test Mode[DETECTED]</summary>
-           <p></p>
+           <p>https://www.wargods.ro/wcd/report.php?id=2769018</p>
            </details>
            <details>
            <summary>Loaded Driver with kdmapper[UNDETECTED]</summary>
            <p></p>
            <details>
-           <summary>Usermode protected with vmprotect[UNDETECTED]</summary>
-           <p></p>
+           <summary>Usermode protected with vmprotect</summary>
+           <p>https://www.wargods.ro/wcd/report.php?id=2769027</p>
            </details>
            <details>
-           <summary>Usermode without vmprotect protection[UNDETECTED]</summary>
-           <p></p>
+           <summary>Usermode without vmprotect protection</summary>
+           <p>https://www.wargods.ro/wcd/report.php?id=2769033</p>
            </details>
 </details></p>
 </details>
