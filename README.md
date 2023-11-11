@@ -9,7 +9,7 @@ Mainly for developers.
 Bypass all kind of server anticheats.
 
 # 🌌Features
-Bunnyhop, Angles Aimbot and Mouse movement emulation aimbot.
+Bunnyhop, Angles Aimbot and Mouse Movement Emulation aimbot.
 
 # 🌌Usage
 + Download latest release
