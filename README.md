@@ -18,7 +18,7 @@ Can be used with or without driver
 
 ## Usage:
 1. Download Visual Studio
-2. Download source code from last [release](https://github.com/tianocore/edk2-archive/blob/master/ShellBinPkg/UefiShell/X64/Shell.efi)
+2. Download source code from last [release](https://github.com/3a1/CS-1.6-Kernel-Cheat/releases]   
 3. Open Cheat.sln and compile Application (you can also compile driver but for this you need WDK setup installed)
 4. Start CS 1.6
 5. Open releases folder and open Application.exe, enjoy :) 
