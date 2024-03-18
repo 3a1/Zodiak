@@ -26,7 +26,7 @@ Can be used with or without driver
 ## Usage & Showcase:
 Click on image below to watch it on YouTube
 
-[![Click](http://i3.ytimg.com/vi/J-yl2FgI6eo/hqdefault.jpg)](https://youtu.be/OD-whsCWQX8?si=7abTy8kGFqT7euRs)
+[![Click](https://i3.ytimg.com/vi/OD-whsCWQX8?si=OkJ1949HEfjJshLs/maxresdefault.jpg)](https://youtu.be/OD-whsCWQX8?si=7abTy8kGFqT7euRs)
 
 ## TODO:
 + Fix slow reading memory in kernel driver mode
