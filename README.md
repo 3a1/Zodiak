@@ -1,33 +1,30 @@
-# CS-1.6-Kernel-Driver
+# Zodiak
 
-CS 1.6 Kernel driver cheat for steam version
-
-Can be used with or without driver
+**Zodiak** is a full kernel driver cheat for CS 1.6. The cheat is designed to leave zero traces in the system to avoid detection, so there are no config files or anything else that could leave a trace. The ESP is implemented by exporting GDI functions, allowing it to work in fullscreen in CS 1.6. The aimbot is created by exploiting the MouHID driver and callling own MouseClassServiceCallback. In the end, it’s similar to ekknod's EC cheat but adapted for CS 1.6, because it uses the same techniques. I hope ekknod won’t mind :3
 
 
 ## General
-- Aimbot (Customizable field of view, smoothing, and speed).
-- Bhop
-- Config system
-- Can be used with or without Driver
+- Written in C and assembly
+- Automatic offsets detection
+- Thread context spoofing
+- Operates in a single thread
 
-## Default Key Binds:
+## Features
+- **Aimbot** (calling "own" MouseClassServiceCallback)
+- **Fullscreen ESP** (GDI kernel drawing without hooks)
 
-- **Aimbot**: Left Click
-- **Bunnyhop**: Spacebar
+## Usage
+Since this cheat is a kernel driver, you'll need to load it. I recommend using kdmapper as it doesn't require test mode. If you prefer, you can also load it in test mode.
+Check out [USAGE.md](USAGE.md) for detailed instruction.
 
-## Usage:
-1. Download Visual Studio
-2. Download source code from last [release](https://github.com/3a1/CS-1.6-Kernel-Cheat/releases)   
-3. Open Cheat.sln and compile Application (you can also compile driver but for this you need WDK setup installed)
-4. Start CS 1.6
-5. Open releases folder and open Application.exe, enjoy :) 
+### Default Keybinds
+- **F6**: Toggle Aimbot
+- **F7**: Toggle ESP
+- **F8**: Toggle "Only Enemies" Mode
+- **Arrow Right/Left**: Adjust FOV
+- **Arrow Up/Down**: Adjust Smooth
 
-## Usage & Showcase:
-Click on image below to watch it on YouTube
 
-[![Click](https://i3.ytimg.com/vi/OD-whsCWQX8/maxresdefault.jpg)](https://youtu.be/OD-whsCWQX8?si=7abTy8kGFqT7euRs)
-
-## TODO:
-+ Fix slow reading memory in kernel driver mode
-+ Clean code and fix bugs
+## Credits
+- [Ekknod](https://github.com/ekknod) for the simple and effective GDI implementation, mouse callback trick, and overall for all his publicly available projects, especially the EC project, which I believe has one of the best structures I've seen in external cheats.
+- [Unmaewei](https://github.com/unmaewei) for his Full Kernel Driver Cheat. I borrowed some general driver operations from there.
