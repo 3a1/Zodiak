@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="utils.c" />
+    <ClCompile Include="data.c" />
+    <ClCompile Include="memory.c" />
+    <ClCompile Include="mouse.c" />
+    <ClCompile Include="gdi.c" />
+    <ClCompile Include="game.c" />
+    <ClCompile Include="spoof.c" />
+    <ClCompile Include="export.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="general.h" />
+    <ClInclude Include="memory.h" />
+    <ClInclude Include="mouse.h" />
+    <ClInclude Include="gdi.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="spoof.h" />
+    <ClInclude Include="export.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="mouse.asm" />
+  </ItemGroup>
+</Project>
