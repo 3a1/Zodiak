@@ -21,8 +21,8 @@ To ensure the cheat works correctly, go to your Steam game properties and select
 - **F6**: Toggle Aimbot
 - **F7**: Toggle ESP
 - **F8**: Toggle "Only Enemies" Mode
-- **Arrow Right/Left**: Adjust Field of View (FOV)
-- **Arrow Up/Down**: Adjust Smoothness
+- **Arrow Right/Left**: Adjust FOV
+- **Arrow Up/Down**: Adjust Smooth
 
 ---
 
@@ -39,3 +39,6 @@ A: In the project directory, there is a file named `fix.reg`. Running this file 
 
 **Q: Why is the "Only Enemies" mode not working on some servers for some players?**  
 A: The "Only Enemies" mode only works with default player models. If a player is using a custom model, the mode may not function correctly.
+
+**Q: The ESP isn’t working for me in fullscreen mode, how can I fix this?**  
+A: Try navigating to the properties of the `hl.exe` file and disabling fullscreen optimizations. This should help resolve the issue.
