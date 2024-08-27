@@ -54,7 +54,8 @@ void DataLoop()
 			{
 				continue;
 			}
-
+			
+			/* Only Enemies Mode */
 			if (bOnlyEnemies) 
 			{
 				if (entity_teammate(i))
