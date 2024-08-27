@@ -79,9 +79,9 @@ bool entity_screen(int i, BOX* box)
 	Vector3 origin_top = origin;
 	Vector3 origin_head = origin;
 
-	origin_bottom.z -= 30.0f;
-	origin_top.z += 25.0f;
-	origin_head.z += 20.0f; // should point on the head
+	origin_bottom.z -= ESP_BOX_BOTTOM;
+	origin_top.z += ESP_BOX_TOP;
+	origin_head.z += AIMBOT_HEAD_POSITION; // should point on the head
 
 	Vector2 screen_bottom, screen_top, screen_head;
 

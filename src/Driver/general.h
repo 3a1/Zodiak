@@ -2,27 +2,33 @@
 #include "pch.h"
 
 /* Offsets */
-#define dwViewMatrix     0xEC9780
-#define dwEntityList     0x12043CC
-#define dwLocalTeam      0x100DF4
-#define m_entityOrigin   0x184
-#define m_stateValue     0x17C
-#define m_entityModel    0x12C
-#define m_entitySize     0x250
+#define dwViewMatrix         0xEC9780
+#define dwEntityList         0x12043CC
+#define dwLocalTeam          0x100DF4
+#define m_entityOrigin       0x184
+#define m_stateValue         0x17C
+#define m_entityModel        0x12C
+#define m_entitySize         0x250
 
 /* Settings */
-#define MAX_ENTITIES      64
-#define AIMBOT_KEY        0x1		// VK_LBUTTON
+#define MAX_ENTITIES          64
+#define AIMBOT_KEY            0x1		// VK_LBUTTON
 
-#define ESP_TOGGLE_KEY    0x76		// F7
-#define AIMBOT_TOGGLE_KEY 0x75		// F6
+// change these if aimbot points below or higher than player head
+// or want to make bigger esp box or something
+#define AIMBOT_HEAD           20.f      // Head position (relatively of the player origin)
+#define ESP_BOX_BOTTOM        30.f      // Box bottom position (relatively of the player origin) 
+#define ESP_BOX_TOP           25.f      // Box top position (relatively of the player origin)
 
-#define SMOOTH_UP_KEY     0x26		// VK_UP
-#define SMOOTH_DOWN_KEY   0x28		// VK_DOWN
-#define FOV_UP_KEY        0x27		// VK_RIGHT
-#define FOV_DOWN_KEY      0x25		// VK_LEFT
+#define ESP_TOGGLE_KEY        0x76		// F7
+#define AIMBOT_TOGGLE_KEY     0x75		// F6
 
-#define ONLY_ENEMIES_KEY  0x77		// F8
+#define SMOOTH_UP_KEY         0x26		// VK_UP
+#define SMOOTH_DOWN_KEY       0x28		// VK_DOWN
+#define FOV_UP_KEY            0x27		// VK_RIGHT
+#define FOV_DOWN_KEY          0x25		// VK_LEFT
+
+#define ONLY_ENEMIES_KEY      0x77		// F8
 
 static RGB box_color = { 255.0f, 0.0f, 0.0f };
 
