@@ -2,13 +2,13 @@
 #include "pch.h"
 
 /* Offsets */
-#define dwViewMatrix         0xEC9780
-#define dwEntityList         0x12043CC
-#define dwLocalTeam          0x100DF4
-#define m_entityOrigin       0x184
-#define m_stateValue         0x17C
-#define m_entityModel        0x12C
-#define m_entitySize         0x250
+#define dwViewMatrix          0xEC9780
+#define dwEntityList          0x12043CC
+#define dwLocalTeam           0x100DF4
+#define m_entityOrigin        0x184
+#define m_stateValue          0x17C
+#define m_entityModel         0x12C
+#define m_entitySize          0x250
 
 /* Settings */
 #define MAX_ENTITIES          64
