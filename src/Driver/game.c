@@ -227,21 +227,21 @@ void HandleKeyInputs()
 	if (NtUserGetAsyncKeyState(AIMBOT_TOGGLE_KEY)) // F6
 	{
 		bAimbot = !bAimbot;
-		NtSleep(10);
+		NtSleep(30);
 	}
 
 	/* Esp on/off */
 	if (NtUserGetAsyncKeyState(ESP_TOGGLE_KEY)) // F7
 	{
 		bEsp = !bEsp;
-		NtSleep(10);
+		NtSleep(30);
 	}
 
 	/* Only Enemies on/off */
 	if (NtUserGetAsyncKeyState(ONLY_ENEMIES_KEY)) // F8
 	{
 		bOnlyEnemies = !bOnlyEnemies;
-		NtSleep(10);
+		NtSleep(30);
 	}
 
 	/* Smooth Increase */
