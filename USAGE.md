@@ -13,7 +13,8 @@ To ensure the cheat works correctly, go to your Steam game properties and select
 
 ## Limitations
 - Only works with the Steam version of the game.
-- Supports only fullscreen mode without black bars.
+- Supports only resolutions without black bars. (use -stretchaspect or -nofbo)
+- Esp typically will work only in windowed fullscreen mode. But, for some it can work in fullscreen after disabling fullscreen optimization. Futhermore, if you have a two or more monitors esp will probably also work in fullscreen when second screen is turned on.
 
 ---
 
@@ -41,4 +42,4 @@ A: In the project directory, there is a file named `fix.reg`. Running this file 
 A: The "Only Enemies" mode only works with default player models. If a player is using a custom model, the mode may not function correctly.
 
 **Q: The ESP isn’t working for me in fullscreen mode, how can I fix this?**  
-A: Try navigating to the properties of the `hl.exe` file and disabling fullscreen optimizations. This should help resolve the issue.
+A: Cheat is not made to work in fullscreen, but sometimes it can work. Try navigating to the properties of the `hl.exe` file and disabling fullscreen optimizations. If that not work, only thing is if you have a dual monitor or more setup esp could work for you in fullscreen when second screen is turned on.
