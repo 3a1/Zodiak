@@ -4,7 +4,7 @@
 You can either download and compile the project yourself or use the pre-compiled binaries provided. This will give you a `.sys` file, which is the driver you need to load.
 
 ### 2. Loading the Driver
-To load the driver, you can use any compatible driver mapper. I recommend using **kdmapper**. Alternatively, you can load the driver in Test Mode.
+To load the driver, you can use any compatible driver mapper. I recommend using [kdmapper](https://github.com/TheCruZ/kdmapper). Alternatively, you can load the driver in **Test Mode**.
 
 ### 3. Configuring the Game
 To ensure the cheat works correctly, go to your Steam game properties and select **"Steam Legacy - Pre-25th Anniversary Build"** under the game version.
@@ -30,7 +30,7 @@ To ensure the cheat works correctly, go to your Steam game properties and select
 ## FAQ
 
 **Q: Which versions of Windows does the cheat support?**  
-A: The cheat supports Windows 10 and 11.
+A: The cheat supports Windows 10 and 11. All versions before windows 10 are not supported.
 
 **Q: Which version of CS 1.6 does the cheat support?**  
 A: The cheat is developed specifically for the Steam version labeled **"Steam Legacy - Pre-25th Anniversary Build."**
@@ -42,4 +42,4 @@ A: In the project directory, there is a file named `fix.reg`. Running this file 
 A: The "Only Enemies" mode only works with default player models. If a player is using a custom model, the mode may not function correctly.
 
 **Q: The ESP isn’t working for me in fullscreen mode, how can I fix this?**  
-A: Cheat is not made to work in fullscreen, but sometimes it can work. Try navigating to the properties of the `hl.exe` file and disabling fullscreen optimizations. If that not work, only thing is if you have a dual monitor or more setup esp could work for you in fullscreen when second screen is turned on.
+A: Cheat is not made to work in fullscreen, but sometimes it can work. Try navigating to the properties of the `hl.exe` file and disabling fullscreen optimizations. If that not work, only thing is if you have a two or more monitors, esp could work for you in fullscreen when second screen is turned on.
