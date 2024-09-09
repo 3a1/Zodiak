@@ -1,7 +1,11 @@
+<p align="center"><img src="https://i.imgur.com/7YOOfqF.png" align="center" alt="Zodiak" width="250" align="center"></p>
+
 # Zodiak
+**Zodiak** is a full kernel driver cheat for CS 1.6. The cheat is designed to leave zero traces in the system to avoid detection, so there are no config files or anything else that could leave a trace.
 
-**Zodiak** is a full kernel driver cheat for CS 1.6. The cheat is designed to leave zero traces in the system to avoid detection, so there are no config files or anything else that could leave a trace. The ESP is implemented by exporting GDI functions, allowing it to work in CS 1.6. The aimbot is created by exploiting the MouHID driver and callling own MouseClassServiceCallback. In the end, it’s similar to ekknod's EC cheat but adapted for CS 1.6, because it uses the same techniques. I hope ekknod won’t mind :3
+The ESP is implemented by exporting GDI functions, allowing it to work in CS 1.6. The aimbot is created by exploiting the MouHID driver and callling own `MouseClassServiceCallback`.
 
+In the end, it’s similar to ekknod's EC cheat but adapted for CS 1.6, because it uses the same techniques. I hope ekknod won’t mind :3
 
 ## General
 - Written in C and assembly
@@ -14,7 +18,7 @@
 - **ESP** (GDI kernel drawing without hooks)
 
 ## Usage
-Since this cheat is a kernel driver, you'll need to load it. I recommend using kdmapper as it doesn't require test mode. If you prefer, you can also load it in test mode.
+Since this cheat is a kernel driver, you'll need to load it. I recommend using [kdmapper](https://github.com/TheCruZ/kdmapper) as it very easy to use. If you prefer, you can also load it just in test mode.
 Check out [USAGE.md](USAGE.md) for detailed instruction.
 
 ### Default Keybinds
