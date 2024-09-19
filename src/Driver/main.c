@@ -61,12 +61,14 @@ NTSTATUS ZodiakEntry(PDRIVER_OBJECT driver_obj, PUNICODE_STRING registery_path)
         return STATUS_NOT_SUPPORTED;
     }
 
+	SpoofContext();
 	/* Exporting Functions */
 	if (!exports_init()) 
 	{
 		DebugPrint("Exports initialization failed");
 		return STATUS_UNSUCCESSFUL;
 	}
+	RestoreContext();
 
 	/* Starting Main Thread */
 	status = PsCreateSystemThread(
