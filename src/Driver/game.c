@@ -223,54 +223,123 @@ void HandleKeyInputs()
 		}
 	}
 
-	/* Aimbot on/off */
-	if (NtUserGetAsyncKeyState(AIMBOT_TOGGLE_KEY)) // F6
-	{
-		bAimbot = !bAimbot;
-		NtSleep(30);
-	}
 
-	/* Esp on/off */
-	if (NtUserGetAsyncKeyState(ESP_TOGGLE_KEY)) // F7
 	{
-		bEsp = !bEsp;
-		NtSleep(30);
-	}
-
-	/* Only Enemies on/off */
-	if (NtUserGetAsyncKeyState(ONLY_ENEMIES_KEY)) // F8
-	{
-		bOnlyEnemies = !bOnlyEnemies;
-		NtSleep(30);
-	}
-
-	/* Smooth Increase */
-	if (NtUserGetAsyncKeyState(SMOOTH_UP_KEY)) // VK_UP
-	{
-		aimbot_smooth += 0.1f;
-	}
-
-	/* Smooth Decrease  */
-	if (NtUserGetAsyncKeyState(SMOOTH_DOWN_KEY)) // VK_DOWN
-	{
-		if (aimbot_smooth > 1.0)
+		static count = 0;
+		/* Aimbot on/off */
+		if (NtUserGetAsyncKeyState(AIMBOT_TOGGLE_KEY)) // F6
 		{
-			aimbot_smooth -= 0.1f;
+			count++;
+			if (count == 1)
+			{
+				bAimbot = !bAimbot;
+			}
+		}
+		else
+		{
+			count = 0;
 		}
 	}
 
-	/* Fov Increase */
-	if (NtUserGetAsyncKeyState(FOV_UP_KEY)) // VK_UP
 	{
-		aimbot_fov += 1;
+		static count = 0;
+		/* Esp on/off */
+		if (NtUserGetAsyncKeyState(ESP_TOGGLE_KEY)) // F7
+		{
+			count++;
+			if (count == 1)
+			{
+				bEsp = !bEsp;
+			}
+		}
+		else
+		{
+			count = 0;
+		}
 	}
 
-	/* Fov Decrease  */
-	if (NtUserGetAsyncKeyState(FOV_DOWN_KEY)) // VK_DOWN
 	{
-		if (aimbot_fov > 1)
+		static count = 0;
+		/* Only Enemies on/off */
+		if (NtUserGetAsyncKeyState(ONLY_ENEMIES_KEY)) // F8
 		{
-			aimbot_fov -= 1;
+			count++;
+			if (count == 1)
+			{
+				bOnlyEnemies = !bOnlyEnemies;
+			}
+		}
+		else
+		{
+			count = 0;
+		}
+	}
+
+	{
+		static count = 0;
+		/* Smooth Increase */
+		if (NtUserGetAsyncKeyState(SMOOTH_UP_KEY)) // VK_UP
+		{
+			count++;
+			if (count == 1)
+			{
+				aimbot_smooth += 0.1f;
+			}
+		}
+		else
+		{
+			count = 0;
+		}
+	}
+
+	{
+		static count = 0;
+		/* Smooth Decrease  */
+		if (NtUserGetAsyncKeyState(SMOOTH_DOWN_KEY)) // VK_DOWN
+		{
+			count++;
+			if (aimbot_smooth > 1.0 && count == 1)
+			{
+				aimbot_smooth -= 0.1f;
+			}
+		}
+		else
+		{
+			count = 0;
+		}
+	}
+
+	{
+		static count = 0;
+		/* Fov Increase */
+		if (NtUserGetAsyncKeyState(FOV_UP_KEY)) // VK_UP
+		{
+			count++;
+			if (count == 0) 
+			{
+				aimbot_fov += 1;
+			}
+		}
+		else
+		{
+			count = 0;
+		}
+	}
+
+	{
+		static count = 0;
+		/* Fov Decrease  */
+		if (NtUserGetAsyncKeyState(FOV_DOWN_KEY)) // VK_DOWN
+		{
+			count++;
+			if (aimbot_fov > 1 && count == 1)
+			{
+				aimbot_fov -= 1;
+			}
+		}
+		else
+		{
+			count = 0;
 		}
 	}
 }
