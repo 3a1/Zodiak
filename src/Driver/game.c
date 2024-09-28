@@ -317,7 +317,7 @@ void HandleKeyInputs()
 			count++;
 			if (count == 0) 
 			{
-				aimbot_fov += 1;
+				aimbot_fov += 10;
 			}
 		}
 		else
@@ -334,7 +334,7 @@ void HandleKeyInputs()
 			count++;
 			if (aimbot_fov > 1 && count == 1)
 			{
-				aimbot_fov -= 1;
+				aimbot_fov -= 10;
 			}
 		}
 		else
