@@ -315,7 +315,7 @@ void HandleKeyInputs()
 		if (NtUserGetAsyncKeyState(FOV_UP_KEY)) // VK_UP
 		{
 			count++;
-			if (count == 0) 
+			if (count == 1) 
 			{
 				aimbot_fov += 10;
 			}
